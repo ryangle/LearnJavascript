@@ -1,0 +1,23 @@
+.class1 {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    /* float: right;*/
+}
+.class2 {
+    background-color: green;
+    width: 200px;
+    height: 30px;
+    float: right;
+}
+.class3 {
+    background-color: yellow;
+    width: 200px;
+    height: 80px;
+}
+.class4 {
+    background-color: blue;
+    width: 200px;
+    height: 30px;
+    /*float: right;*/
+}

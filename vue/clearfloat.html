@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .box1 {
+        border: 1px solid red;
+        background-color: yellow;
+    }
+    
+    .clear:after {
+        content: ".dddddd" ;
+        display: block;
+        height: 10px;
+        visibility: hidden;
+        clear: both;
+    }
+    
+    .box2 {
+        width: 200px;
+        height: 200px;
+        float: right;
+        background-color: orange;
+    }
+    
+    .box3 {
+        width: 200px;
+        height: 200px;
+        clear: right;
+        background-color: green;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box1 clear">
+        <div class="box2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, laboriosam!
+        </div>
+        <div class="box3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </div>
+    </div>
+</body>
+
+</html>
