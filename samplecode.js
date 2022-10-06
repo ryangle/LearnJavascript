@@ -163,7 +163,7 @@
 //闭包，捕获私有作用域内的变量
 //函数的属性、方法和构造函数
 // length、name、prototype
-// call()、apply()、toString()
+// call()、apply()、toString()llxd
 
 //类
 //extends  super static
@@ -172,5 +172,20 @@
 
 //new.target引用的是被调用的构造函数 new.target.name
 
-//模块
+//模块m
 //标准库
+// console.log("setTimeout");
+// setTimeout(()=>{console.log("start");},1000);
+// console.log("end");
+
+//期约 
+// fulfill reject pending settle
+//期约链
+
+//元编程
+
+//defer和async属性都会明确告诉浏览器，当前链接的脚本中没有使用document.write()生成HTML输出。因此浏览器可以在下载脚本的同时继续解析和渲染文档。
+
+//客户端JavaScript
+//事件：事件类型、事件目标、事件对象、事件传播
+//事件传播的三个阶段
