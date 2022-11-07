@@ -2,11 +2,7 @@
 
 ## 概况
 
-* buildin modules
-* 异步IO
-* 事件驱动架构 libuv
-* 单线程
-* 适合IO密集型的中间层服务
+
 
 ## 实现一个API服务
 
