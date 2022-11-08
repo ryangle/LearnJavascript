@@ -9,5 +9,5 @@
 ## 安装
 
 * 项目采用Vue3 + TS + vite搭建：npm create vite@latest pinia-app --template vue-ts
-
+* 安装pinia:npm install pinia
 
